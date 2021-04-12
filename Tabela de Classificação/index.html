@@ -1,0 +1,51 @@
+<html>
+  <header>
+    <title>Imersão Dev - Aula 06</title>
+    <link rel="stylesheet" href="style.css" />
+  </header>
+  <body>
+    <div class="container-imagem-fundo">
+      <img
+        src="https://besthqwallpapers.com/Uploads/26-1-2018/38398/thumb2-sonic-the-hedgehog-2018-movie-3d-animation-sonic.jpg"
+      />
+    </div>
+    <div class="page-title">
+      <img
+        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg"
+        class="page-logo"
+        alt=""
+      />
+      <a href="https://alura.com.br/" target="_blank">
+        <img
+          alt=""
+          class="alura-logo"
+          src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+        />
+      </a>
+      <h1>TABELA DE CLASSIFICAÇÃO</h1>
+    </div>
+    <div class="new-player">
+      <label for="player-name" class="player-name">Novo jogador: </label>
+      <input id="player-name" class="player-name" autofocus />
+      <button class="player-name" onclick="savePlayer()">Salvar</button>
+    </div>
+    <div class="table">
+      <table>
+        <thead>
+          <tr>
+            <th>Selecionar</th>
+            <th>Nome</th>
+            <th>Vitórias</th>
+            <th>Empates</th>
+            <th>Derrotas</th>
+            <th>Pontos</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody id="tabela-jogadores"></tbody>
+      </table>
+    </div>
+  <script src="main.js"></script>
+  </body>
+  <footer>Created by Shirley Brito</footer>
+</html>

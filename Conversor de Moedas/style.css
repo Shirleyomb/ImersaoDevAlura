@@ -1,0 +1,100 @@
+body,
+html {
+  height: 100%;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("https://i.pinimg.com/originals/77/29/f7/7729f7e5ea34d9696242f64f521c70e3.jpg");
+  height: 100%;
+
+  background-color: #5c2283;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.page-title {
+  font-size: 50px;
+  margin: 0 0 5px;
+  border: 6px #18011d;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #ffffff;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  text-shadow: 4px 1px 1px rgba(0, 0, 0, 1);
+  border-radius: 5px;
+ 
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+  text-shadow: 4px 1px 1px rgba(0, 0, 0, 1);
+  font-size: 30px;
+}
+
+.page-logo {
+  width: 250px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.formulario {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #eec9e9;
+  justify-content: center;
+}
+.campo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.campo input[type="text"] {
+  padding: 0.2em;
+  border: 1px solid #4d0153;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  display: block;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.botao {
+  font-size: 1.2em;
+  background: #330135;
+  border: 1px #18011d;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #e7dfe6;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.botao:hover {
+  background: #b85be7;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.4);
+  text-shadow: none;
+}
+
+.botao,
+select {
+  cursor: pointer;
+}

@@ -1,0 +1,94 @@
+body {
+  background-image: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(149, 61, 218, 1) 100%
+  );
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+/* CABEÇALHO FOTO E BANNER */
+header {
+  text-align: center;
+  background-image: url("https://media-exp1.licdn.com/dms/image/C4E16AQH9H-FDDlNAqg/profile-displaybackgroundimage-shrink_200_800/0/1615260564167?e=1623888000&v=beta&t=JG4UdhttSPoTywjxmxW8mWa02xXwG27fdYtPPgvTHY4");
+  margin: 10px;
+  border-radius: 10px;
+  background-size: cover;
+  height: 160px;
+}
+
+header img {
+  width: 180px;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+  border: solid 4px #e093eb;
+  display: block;
+  transform: translateY(-50%);
+}
+
+/* CONTAINER */
+section {
+  -webkit-box-shadow: 5px 5px 50px 8px rgba(0, 0, 0, 0.59);
+  box-shadow: 5px 5px 50px 8px rgba(0, 0, 0, 0.59);
+  max-width: 800px;
+  min-width: 400px;
+  margin-top: 300px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 2px #673ab7;
+}
+
+/* SUBTÍTULO CARD INSIGNIAS */
+section h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  text-align: center;
+  font-size: 40px;
+  margin: 15px;
+}
+
+section h2 {
+  margin: 0;
+  text-align: center;
+}
+
+/* CARD INSIGNIAS */
+.insignias {
+  background: #f5f5f5;
+  border: solid 2px #673ab7;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* CARD CONTATO */
+.contato {
+  text-align: center;
+  background: #f5f5f5;
+  border: solid 2px #673ab7;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.contato li {
+  list-style: none;
+}
+
+.contato img {
+  height: 20px;
+}
+
+/* ESTILO LINKS */
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+}

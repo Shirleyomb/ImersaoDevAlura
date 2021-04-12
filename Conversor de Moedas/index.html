@@ -1,0 +1,57 @@
+<Html:5>
+  <header>
+    <link rel="stylesheet" href="style.css">
+    <title>Imersão Dev - Aula 01</title>
+  </header>
+  <body>
+    <script src="script.js"></script>
+
+    <div class="container">
+      <h1 class="page-title">Conversor de Moedas</h1>
+      <p class="page-subtitle">Converta valores em Dólar U$ para Real R$</p>
+      <img
+        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+        class="page-logo"
+        alt=""
+      />
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+      <img
+        src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+        alt=""
+        class="alura-logo"
+    /></a>
+
+    <div class="formulario">
+      <form>
+        <fieldset class="grupo">
+          <div class="campo">
+            <label for="valor1"><strong>Insira o valor em USD</strong></label>
+            <input
+              type="text"
+              placeholder="USD 0.00"
+              name="valor1"
+              id="valor1"
+            />
+          </div>
+          <div class="campo">
+            <button class="botao" type="submit" onClick="calcular()">
+              Converter valores
+            </button>
+            <div class="campo">
+              <label for="cotacao"
+                ><strong>Cotação atual em BRL </strong></label
+              >
+              <input type="text" name="cotacao" id="cotacao" value="5.51" />
+            </div>
+          </div>
+          <div class="campo">
+            <label for="resultado"><strong>Valor em BRL</strong></label>
+            <input type="text" name="resultado" id="resultado" readonly />
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</Html:5>
